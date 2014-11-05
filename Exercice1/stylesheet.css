@@ -27,7 +27,7 @@ h3 {
 h4 {
 	font-weight: bold;
 	font-size: 8pt;
-	color: green;
+	color: red;
 }
 
 
@@ -38,39 +38,72 @@ h5 {
 
 #header {
 	background-color: white;
+	margin-top: 20px;
 }
 
+#logo {
+	width: 250px;
+	float: left;
+}
+
+
 #container{
-	background-color: #e8e8e8;
+	background-color: white;
 }
 
 	body {
 		background:#FFF;}
-	a,
-	a:hover {text-decoration:none}	
+	
+	a{
+		color: red;
+	}
+
+	a:hover {
+		text-decoration:none;
+		color: blue;
+	}	
 	
     #wrapper{
 	width:1200px;
 	margin:0px auto;
    }
      #navbutton ul {
-	float:right	
+	float:right;
   }
 
 #navbar {
-	height: 20px;
+	padding-top: 40px;
+	height: 60px;
 	background-color: white;
 	text-align: left;
-	float: right;
-	color: red;
-	padding: 20px;
+	float: left;
 }
 
-  #navbutton ul li{
-	float:left;
-	margin:0px 5px;
-   }
+#navbar span {
+	color: black;
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 10pt;
+}
 
+	#navbutton ul li{
+		float: left;
+		margin:0px 5px;
+		text-align: center;
+		font-family: helvetica;
+		font-weight: bold;
+		font-size: 13pt;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	#navbutton a {
+		color: black;
+		text-decoration: none;
+	}
+	#navbutton a:hover {
+		color: red;
+	}
 #slider{
 	width: 100%;
 	margin-right: auto;
@@ -78,14 +111,14 @@ h5 {
 	text-align: center;
 }
 #slider img {
-	width: 100%
+	width: 100%;
 }
 
 .colwhite{
 	background-color: white;
 }
 .colgrey{
-	background-color: #cacaca;
+	background-color: #ebebec;
 }
 
 .clearfix:before, 
